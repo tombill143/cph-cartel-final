@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: aqua;
+  margin-bottom: 90px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+/* start showing products */
+.product-list-main-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category-container-left {
+  width: 200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.btn-swimwear-sportwear {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  width: 215px;
+  height: 36px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  position: relative;
+}
+.swimwear {
+  padding: 20px;
+  border-radius: 20px;
+}
+.swimwear > a {
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 100px;
+  height: 36px;
+  background-color: #fc6d3a;
+  border-radius: 23px 23px 23px 23px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  color: black;
+}
+.Sportwear {
+  padding: 20px;
+  border-radius: 20px;
+}
+.Sportwear > a {
+  position: absolute;
+  left: 110px;
+  top: 0;
+  width: 100px;
+  height: 36px;
+
+  border-radius: 23px 23px 23px 23px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.Sportwear > a:hover {
+  position: absolute;
+  left: 110px;
+  top: 0;
+  width: 100px;
+  height: 36px;
+  background-color: #ecd927;
+  border-radius: 23px 23px 23px 23px;
+  padding: 5px 15px 5px 35px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.category-list > ul > li {
+  list-style: none;
+  line-height: 1.9em;
+}
+main {
+  display: grid;
+  /*    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-gap: 5rem 3rem;
+  /*  max-width: calc(1350px - 4rem);*/
+  /*  background: red;*/
+  margin-top: 50px;
+}
+
+.bikini {
+  display: flex;
+  flex-flow: row;
+  max-width: 500px;
+  /* If there is only one, it'll take up full width */
+}
+
+.figure-img {
+  order: -1;
+  align-self: center;
+  /*  width: 300px;*/
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Styling */
+
+body {
+}
+
+main {
+}
+
+article {
+  background: #fff;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2,
+nav {
+  font-family: "domine";
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+p {
+  font-style: italic;
+  color: var(--grey-colour);
+}
+
+.fetched {
+  font-family: serif;
+  font-weight: 600;
+  color: var(--black-colour);
+  font-size: 18px;
+  margin-left: 0.7rem;
+}
+
+.headerH2 {
+  display: inline;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.brandsTop {
+  color: var(--dark-red);
+}
+
+/*
+.img-bike {
+  width: 300px;
+}
+*/
+
+.bikiniStock {
+  width: 210px;
+  margin: 0 0 15px;
+}
+
+.brand {
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.model {
+  margin: 3px 10px;
+  font-size: 17px;
+  color: var(--grey-colour);
+  letter-spacing: 4px;
+  padding-bottom: 5px;
+  border-bottom: solid 0.5px rgba(100, 100, 100, 0.8);
+  /* lacj */
+  /*border-bottom: 1px solid red;*/
+}
+
+.fullSpecs {
+  /*  margin: 10px 30% 0px;*/
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 1px;
+  text-transform: uppercase;
+  border: solid 1px;
+  color: var(--dark-red);
+  font-size: 18px;
+  padding: 6px 9px;
+}
+
+.box {
+  border: solid 0.3px #f2efea;
+  margin: 10px;
+  padding: 10px;
+}
+
+.box p {
+  border-bottom: solid 0.3px #f2efea;
+  /*  padding: 1rem 0 0 0;*/
+}
+
+.hide {
+  display: none;
+}
+
+.colourDiv {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  margin: 0px 6px;
+}
