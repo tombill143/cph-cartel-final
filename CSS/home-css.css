@@ -770,14 +770,68 @@ img {
   color: #ffffff;
 }
 footer {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: darkred;
-  width: 1400px;
-  height: 500px;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  padding: 4rem;
 }
 
 @media screen and (min-width: 700px) {
   .third-container-trending {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.details {
+  line-height: 2.6;
+}
+
+footer a {
+  padding-top: 1cm;
+  padding-left: 1cm;
+}
+
+.gethelp a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutus a {
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  padding-left: 0cm;
+}
+
+footer h3 {
+  padding-left: none;
+}
+
+footer h1 {
+  padding-left: 1cm;
+}
+
+footer {
+  gap: none;
+}
+
+footer a:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  color: white;
+  border-radius: 10px;
+}
+
+.gethelp {
+  display: grid;
+  grid-column: auto;
+}
+
+.aboutus {
+  display: grid;
+  grid-column: auto;
 }
