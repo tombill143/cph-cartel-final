@@ -6,12 +6,8 @@
 /* Header*/
 body {
   position: relative;
-
-  margin-left: auto;
-  margin-right: auto;
 }
 header {
-  background-color: aqua;
   margin-bottom: 90px;
   height: 200px;
   display: flex;
@@ -43,7 +39,7 @@ nav {
   margin-top: 30px;
 }
 .main-container {
-  max-width: 1400px;
+  max-width: 1200px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -52,9 +48,8 @@ nav {
 .first-conatiner-home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+
   column-gap: 30px;
 }
 /*left container */
@@ -185,11 +180,6 @@ nav {
   row-gap: 10px;
 }
 .right-container > h2 {
-  width: 705px;
-  height: 189px;
-  left: 716px;
-  top: 329px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -204,11 +194,6 @@ nav {
   color: #000000;
 }
 .right-container > h4 {
-  width: 705px;
-  height: 177px;
-  left: 716px;
-  top: 329px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 200;
@@ -223,11 +208,6 @@ nav {
   color: #000000;
 }
 .right-container > p {
-  width: 618px;
-  height: 303px;
-  left: 721px;
-  top: 600px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -314,9 +294,7 @@ nav {
 }
 /* Start the second container */
 .second-container-home {
-  width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 60px;
@@ -324,6 +302,7 @@ nav {
 }
 
 .box-201 {
+  width: 100%;
   font-family: "Roboto";
   font-style: normal;
   font-size: 20px;
@@ -346,19 +325,17 @@ nav {
   margin-right: auto;
 }
 .box-202 {
-  width: 322px;
-  height: 430.98px;
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   margin-left: 10px;
-  background-color: aliceblue;
   border-radius: 70px 0px 0px 0px;
 }
 .img-gym-clothes {
-  width: 322px;
-  height: 353.7px;
-
-  background: url(/images/Gym-set.png);
+  width: 100%;
+  height: auto;
+  background: url(../images/Gym-set.png);
   background-repeat: no-repeat;
   border-radius: 70px 0px 0px 0px;
 }
@@ -377,15 +354,13 @@ nav {
   letter-spacing: 0.2em;
 }
 .img-2 {
-  width: 322px;
-  height: 353.7px;
+  width: 100%;
   background: url(../images/Swimming\ suit.png.png);
   background-repeat: no-repeat;
   border-radius: 70px 0px 0px 0px;
 }
 .img-3 {
-  width: 322px;
-  height: 353.7px;
+  width: 100%;
   background: url(../images/watch-1.png);
   background-repeat: no-repeat;
   border-radius: 70px 0px 0px 0px;
@@ -542,8 +517,7 @@ img {
   line-height: 1.7em;
 }
 .testimonials-container {
-  width: 1300px;
-  height: 692px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 
@@ -680,16 +654,14 @@ img {
   top: 460px;
 }
 .subscribe-background {
-  width: 1400px;
-  height: 292px;
+  width: 100%;
   background: rgba(234, 208, 202, 0.4);
   border-radius: 300px 0 300px 0;
   margin-bottom: 100px;
 }
 .subscribe-container {
   position: relative;
-  width: 595px;
-  height: 196px;
+  height: 300px;
 }
 .subscribe-container > h2 {
   position: absolute;
@@ -709,8 +681,7 @@ img {
 }
 .img-box-subscribe {
   position: absolute;
-  left: 1300px;
-  width: 130px;
+
   height: 101.13px;
   background: url(../images/turle-victor.png);
   background-repeat: no-repeat;
@@ -741,9 +712,7 @@ img {
   height: 69px;
   left: 801px;
   top: 150px;
-
   background: #0b25b7;
-
   border-radius: 50px;
   color: white;
 }
@@ -762,18 +731,10 @@ img {
   font-size: 32px;
   line-height: 38px;
   /* identical to box height, or 117% */
-
   display: flex;
   align-items: center;
   letter-spacing: -0.05em;
-
   color: #ffffff;
-}
-footer {
-  text-align: center;
-  background-color: darkred;
-  width: 1400px;
-  height: 500px;
 }
 
 @media screen and (min-width: 700px) {
